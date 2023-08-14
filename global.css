@@ -1,0 +1,426 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+body {
+  background-color: #14140d;
+}
+@font-face {
+  font-family: "Balian";
+  src: url("./font/Balianpersonaluse-Regular.ttf");
+}
+.latar {
+  background-image: url("./Componen/Group 37.svg");
+  background-size: cover;
+  height: 100vh;
+}
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 51px;
+  align-items: center;
+}
+
+.menu-wrapper ul {
+  display: flex;
+  gap: 32.08px;
+  list-style: none;
+}
+.menu-wrapper ul li a {
+  text-decoration: none;
+  font-family: Balian;
+  color: white;
+  font-size: 20.18px;
+}
+.home {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 148px;
+}
+.content {
+  max-width: 500px;
+}
+.content h2 {
+  font-family: Balian;
+  color: #fff44f;
+  font-size: 35px;
+  font-weight: 400;
+}
+.content h1 {
+  font-family: Inter;
+  font-size: 61.71px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.content h3 {
+  color: #fff44f;
+  font-family: Balian personal use;
+  font-size: 33px;
+  font-weight: 400;
+  margin-top: 17px;
+}
+.content p {
+  font-family: Inter;
+  font-size: 17.611px;
+  font-weight: 400;
+  margin-top: 9px;
+}
+.content .btn-box {
+  width: 179px;
+  height: 54.969px;
+  margin-top: 39px;
+}
+
+.btn-box a {
+  width: 179px;
+  height: 54.969px;
+  border-radius: 14.094px 0px;
+  border: 2.658px solid #fff44f;
+  color: #fff;
+  font-family: Inter;
+  font-size: 21.432px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.About {
+  background: #181710;
+  background-size: cover;
+  padding: 148px;
+}
+.bingkai {
+  width: 397px;
+  height: 467px;
+}
+.content-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 134px;
+}
+
+.content-about h2 {
+  color: #fff44f;
+  font-family: Balian;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.isi-about p {
+  margin-top: 26px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 26px;
+}
+.isi-about p1 {
+  color: #ffe140;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.identitasdiri-about {
+  display: flex;
+  align-items: center;
+  margin-top: 44.42px;
+  gap: 120px;
+}
+.datadiri-about p {
+  color: #ffe140;
+  font-family: Inter;
+  font-size: 22.103px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.identitas-about p {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 22.103px;
+  font-style: normal;
+  line-height: normal;
+}
+.btn2-box {
+  width: 179px;
+  height: 54.969px;
+  margin-top: 59.58px;
+}
+.btn2-box a {
+  width: 179px;
+  height: 54.969px;
+  border-radius: 14.094px 0px;
+  border: 2.658px solid #fff44f;
+  color: #fff;
+  font-family: Inter;
+  font-size: 21.432px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.latarskil {
+  background-image: url("./Componen/Group 27.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skills {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 148px;
+}
+.pendidikan {
+  max-width: 500px;
+}
+.pendidikan h1 {
+  color: #ffe140;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pendidikan h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pendidikan ul li a {
+  margin-top: 23px;
+  color: #ffe140;
+  font-family: Inter;
+  font-size: 21.304px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pendidikan ul li {
+  margin-top: 13px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 21.304px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.kemampuan {
+  max-width: 500px;
+}
+.kemampuan h1 {
+  color: #ffe140;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.kemampuan h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.kemampuan ul li a {
+  margin-top: 23px;
+  color: #ffe140;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.kemampuan ul li {
+  margin-top: 13px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 21.304px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.progran {
+  margin-top: 33px;
+}
+.program h1 {
+  margin-top: 33px;
+  color: #ffe140;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.program h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Portofolio {
+  background: #181710;
+  background-size: cover;
+  padding: 148px;
+}
+.Header {
+  text-align: center;
+  align-items: center;
+}
+.Header h1 {
+  color: #fff44f;
+  font-family: Balian personal use;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Header h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48.258px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Header p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+}
+.hasil-projek {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.bukti img {
+  border-radius: 15px;
+  width: 334px;
+  height: 206px;
+}
+.bukti h1 {
+  width: 319px;
+  color: #ffe140;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bukti p {
+  width: 319px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.blog {
+  background-image: url("./Componen/Group\ 27.svg");
+  padding: 148px;
+}
+.Header-blog {
+  text-align: center;
+  align-items: center;
+}
+.Header-blog h1 {
+  color: #fff44f;
+  font-family: Balian personal use;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Header-blog h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48.258px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Header-blog p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+}
+.website-blog {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+.website img {
+  border-radius: 15px;
+  width: 334px;
+  height: 206px;
+  flex-shrink: 0;
+}
+.website h1 {
+  width: 319px;
+  color: #ffe140;
+  text-align: left;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.website p {
+  width: 319px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contack {
+  background: #181710;
+  background-size: cover;
+  padding: 148px;
+}
+.contack-haha {
+  text-align: center;
+  align-items: center;
+}
+.contack-haha h1 {
+  color: #fff44f;
+  font-family: Balian personal use;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contack-haha h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48.258px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contack-haha p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 300px;
+}
